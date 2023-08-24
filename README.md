@@ -8,4 +8,4 @@
 
 ### username: admin, password: 123456
 
-Try to use "checkout_date": "%Y-%m-%dT%H:%M:%S", "return_date": "%Y-%m-%dT%H:%M:%S" (2023-08-24T12:00:00) this formate or simply leave it blank.
+Try to use "checkout_date": "%Y-%m-%dT%H:%M:%S", "return_date": "%Y-%m-%dT%H:%M:%S" (2023-08-24T12:00:00) this formate or simply leave it blank. You can use Django Rest Framework default API View or use postman. I prefer API View for simplicity. remember to create .env from .env.example
