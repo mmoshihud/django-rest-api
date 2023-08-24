@@ -9,4 +9,5 @@ urlpatterns = [
     path("devices/", device_list),
     path("devices/<int:pk>/", device_detail),
     path("transactions/", transaction_list),
+    path("transactions/<int:pk>/", transaction_detail),
 ]
