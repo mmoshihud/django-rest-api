@@ -2,5 +2,6 @@ from django.urls import path
 from api_services.api.views import *
 
 urlpatterns = [
-    path("company", company_list),
+    path("companies/", company_list),
+    path("companies/<int:pk>/", company_detail),
 ]
