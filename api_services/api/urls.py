@@ -6,4 +6,6 @@ urlpatterns = [
     path("companies/<int:pk>/", company_detail),
     path("employees/", employee_list),
     path("employees/<int:pk>/", employee_detail),
+    path("devices/", device_list),
+    path("devices/<int:pk>/", device_detail),
 ]
